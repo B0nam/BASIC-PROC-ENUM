@@ -2,7 +2,7 @@
 Programa simples para enumerar processos em execução escrito em linguagem C (Windows)
 
 ## O que seria essa listagem de processos?
-[INSERIR TEXTO] que listam os processos em execução no sistema, retornando o seu PID e o seu nome quando possível.
+Os programas verificam quais são os processos em execução no sistema, retornando o seu PID e o seu nome quando possível. Os processos são todos os aplicativos em execução no seu sistema operacional, Ex: Navegador, calculadora, gerenciador de arquivos, etc...
 
 ## Por que listar os processos.
 Identificar os processos em execução no sistema incluindo o seu PID é extremamente útil para manipular esses processos, seja para a obtenção de dados ou para a injeção de código nos respectivos processos.
