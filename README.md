@@ -1,17 +1,17 @@
 # BASIC-PROC-ENUM
-Programa simples para enumerar processos em execução escrito em linguagem C (Windows)
+Formas de enumerar processos em execução escrito em linguagem C (Windows)
 
 ## O que seria essa listagem de processos?
-Os programas verificam quais são os processos em execução no sistema, retornando o seu PID e o seu nome quando possível. Os processos são todos os aplicativos em execução no seu sistema operacional, Ex: Navegador, calculadora, gerenciador de arquivos, etc...
+Os programas verificam os processos em execução no sistema, retornando seu PID e nome quando possível. Os processos são os aplicativos em execução em seu sistema operacional, como navegadores, calculadoras, gerenciadores de arquivos, etc.
 
 ## Por que listar os processos.
-Identificar os processos em execução no sistema incluindo o seu PID é extremamente útil para manipular esses processos, seja para a obtenção de dados ou para a injeção de código nos respectivos processos.
+Identificar os processos em execução no sistema incluindo o seu PID é extremamente útil para manipular esses processos.
 
-### Como funciona?
-O processo de enumeração dos processos do sistema pode ser realizado de diversas maneiras, no caso deste repositório, estarei abordando três diferentes de realizar a enumeração.
+## Como funciona?
+A enumeração de processos do sistema pode ser realizado de diferentes maneiras, aqui estão listadas três  formas de enumerar utilizando a API do windows.
 
-As três formas aqui apresentadas utilizam as funções disponibilizadas pelo Windows para listar todos os precessos do sistema de forma relativamente simples.
+- [EnumProcess()](https://github.com/B0nam/BASIC-PROC-ENUM/tree/main/EnumProcesses)
+- [ToolHelp32()](https://github.com/B0nam/BASIC-PROC-ENUM/tree/main/ToolHelp32)
+- [EnumWindows()](https://github.com/B0nam/BASIC-PROC-ENUM/tree/main/EnumWindows)
 
-Utilizando a função EnumProcesses()     // https://learn.microsoft.com/en-us/windows/win32/api/Psapi/nf-psapi-enumprocesses
-Utilizando o ToolHelp32()
-Utilizando a função EnumWindows()       // Créditos para smelly__vx (vxundeground creator)
+Explore os tópicos acima para obter mais detalhes sobre cada método.
