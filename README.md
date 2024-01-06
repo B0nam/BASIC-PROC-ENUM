@@ -11,7 +11,7 @@ Identificar os processos em execução no sistema incluindo o seu PID é extrema
 A enumeração de processos do sistema pode ser realizado de diferentes maneiras, aqui estão listadas três  formas de enumerar utilizando a API do windows.
 
 - [EnumProcess()](https://github.com/B0nam/BASIC-PROC-ENUM/tree/main/EnumProcesses)
-- [ToolHelp32()](https://github.com/B0nam/BASIC-PROC-ENUM/tree/main/ToolHelp32)
 - [EnumWindows()](https://github.com/B0nam/BASIC-PROC-ENUM/tree/main/EnumWindows)
+- [ToolHelp32()](https://github.com/B0nam/BASIC-PROC-ENUM/tree/main/ToolHelp32)
 
 Explore os tópicos acima para obter mais detalhes sobre cada método.
